@@ -8,7 +8,7 @@ A dual-sided intelligence platform for skill-gap bridging, ghosting prevention &
 
 ---
 
-## 🚀 Quick Start (No npm, No React, No errors!)
+## Quick Start (No npm, No React, No errors!)
 
 ### Prerequisites
 - Python 3.9+
@@ -45,7 +45,7 @@ Open **http://localhost:5000** in your browser. That's it! 🎉
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 ### Deploy to Render (Free)
 
@@ -72,25 +72,25 @@ railway up
 ### For Applicants
 | Feature | Description |
 |---------|-------------|
-| **Application Tracker** | Full CRUD — track company, role, status, notes |
-| **Ghosting Prediction Engine** | ML-style score using company, department, timing |
-| **Skill-Gap Artifact Generator** | AI extracts missing skills + generates mini-project |
-| **Hidden JD Signals** | Uncovers 10+ unstated job requirements |
-| **Follow-up Generator** | AI drafts professional follow-up emails in 1 click |
-| **Personal Dashboard** | Stats, charts, KPIs — all in one view |
+| **Application Tracker** - Full CRUD — track company, role, status, notes |
+| **Ghosting Prediction Engine** -ML-style score using company, department, timing |
+| **Skill-Gap Artifact Generator** - AI extracts missing skills + generates mini-project |
+| **Hidden JD Signals** - Uncovers 10+ unstated job requirements |
+| **Follow-up Generator** - AI drafts professional follow-up emails in 1 click |
+| **Personal Dashboard** - Stats, charts, KPIs — all in one view |
 
 ### For Recruiters
 | Feature | Description |
 |---------|-------------|
-| **Candidate Pipeline** | Full CRUD candidate management |
-| **Skill Score + Honesty Score** | Rate candidates on skill level & learning agility |
-| **One-Click Bulk Follow-up** | Update all pending candidates in 10 seconds |
-| **Ghosting Risk Dashboard** | Your team's ghosting rate vs industry benchmark |
-| **Radar Analytics** | Response rate, brand score, transparency metrics |
+| **Candidate Pipeline** - Full CRUD candidate management |
+| **Skill Score + Honesty Score** - Rate candidates on skill level & learning agility |
+| **One-Click Bulk Follow-up** - Update all pending candidates in 10 seconds |
+| **Ghosting Risk Dashboard** - Your team's ghosting rate vs industry benchmark |
+| **Radar Analytics** - Response rate, brand score, transparency metrics |
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -140,7 +140,7 @@ The Skill-Gap Analyzer uses **Claude claude-sonnet-4-20250514** to:
 
 ---
 
-## 📊 Ghosting Prediction Algorithm
+## Ghosting Prediction Algorithm
 
 Factors used:
 - **Department base rate** (Engineering 30%, HR 55%, etc.)
@@ -150,7 +150,7 @@ Factors used:
 
 ---
 
-## 👥 Team Details
+## Team Details
 
 - **Rishi Raj** (24BCE10149)
 - **Arnab Kumar** (24BCE11017)
