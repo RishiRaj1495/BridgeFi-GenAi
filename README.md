@@ -1,166 +1,146 @@
-# BridgeFi
+BridgeFi
+Closing the Loop Between Applicant Effort & Recruiter Response
 
-> **Closing the Loop Between Applicant Effort & Recruiter Response**
+-A dual-sided AI platform that bridges skill gaps, predicts ghosting, and improves hiring transparency.
 
-A dual-sided intelligence platform for skill-gap bridging, ghosting prevention & personal career analytics.
+Not another resume parser. Not another tracker.
+Two sides. One intelligent system.
+Why BridgeFi?
 
-**"Not another resume parser. Not another tracker. Two sides. One solution."**
+Every job application has two silent problems:
 
----
+❌ Candidates don’t know why they’re rejected
+❌ Recruiters unintentionally ghost applicants
 
-## 🚀 Quick Start (No npm, No React, No errors!)
+ BridgeFi solves both — simultaneously.
 
-### Prerequisites
-- Python 3.9+
-- pip
+What BridgeFi Does:
 
-### 1. Clone & Setup
+-For Applicants
+Detects skill gaps vs job description
+Generates mini-projects to improve skills
+Predicts ghosting probability
+Tracks all applications in one dashboard
+Auto-generates follow-up emails
 
-```bash
+-For Recruiters
+Manage candidate pipeline
+Track ghosting behavior
+Score candidates on:
+Skill level
+Learning ability
+Improve employer brand transparency
+
+How It Works
+
+Resume + Job Description(JD) → AI Analysis → Skill Gap Detection → Smart Insights → Better Hiring Decisions
+
+Core Workflow
+Upload Resume + Job Description
+Extract & classify skills
+Analyze JD requirements
+Compare both sides
+Generate:
+Match score
+Skill gaps
+
+Recommendations
+ Tech Stack
+Layer	Technology
+Backend	Python + Flask
+Database	SQLite (SQLAlchemy)
+Frontend	HTML + CSS + Vanilla JS
+AI Engine	Anthropic Claude
+Charts	Chart.js
+Deployment	Render / Railway / Vercel
+
+ Quick Start
+-Clone Repository
 git clone https://github.com/your-username/bridgefi.git
 cd bridgefi
-```
 
-### 2. Install Dependencies
-
-```bash
+-Install Dependencies
 pip install -r requirements.txt
-```
-
-### 3. Configure Environment (Optional)
-
-```bash
-cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY for AI features
-# The app works perfectly without an API key using smart mock data
-```
-
-### 4. Run the App
-
-```bash
+3️⃣ Run the App
 python app.py
-```
 
-Open **http://localhost:5000** in your browser. That's it! 🎉
+Open: http://localhost:5000
 
----
+Environment Setup (Optional)
+cp .env.example .env
 
-## 🌐 Deployment
+Add:
 
-### Deploy to Render (Free)
+ANTHROPIC_API_KEY=your_api_key
+SECRET_KEY=random_string
+ No API key? No problem — mock AI still works.
 
-1. Push to GitHub
-2. Go to [render.com](https://render.com) → New Web Service
-3. Connect your repo
-4. Set environment variables:
-   - `ANTHROPIC_API_KEY` = your key
-   - `SECRET_KEY` = random string
-5. Deploy!
-
-### Deploy to Railway
-
-```bash
+🌐 Deployment
+🟢 Render
+Connect GitHub repo
+Add environment variables
+Deploy
+🟣 Railway
 railway login
 railway init
 railway up
-```
 
----
+ AI Capabilities
 
-## ✨ Features
+Powered by Claude Sonnet 4, BridgeFi can:
 
-### For Applicants
-| Feature | Description |
-|---------|-------------|
-| **Application Tracker** | Full CRUD — track company, role, status, notes |
-| **Ghosting Prediction Engine** | ML-style score using company, department, timing |
-| **Skill-Gap Artifact Generator** | AI extracts missing skills + generates mini-project |
-| **Hidden JD Signals** | Uncovers 10+ unstated job requirements |
-| **Follow-up Generator** | AI drafts professional follow-up emails in 1 click |
-| **Personal Dashboard** | Stats, charts, KPIs — all in one view |
+Extract structured skills from JDs
+Identify hidden job expectations
+Generate real-world mini projects
+Provide match scoring + reasoning
 
-### For Recruiters
-| Feature | Description |
-|---------|-------------|
-| **Candidate Pipeline** | Full CRUD candidate management |
-| **Skill Score + Honesty Score** | Rate candidates on skill level & learning agility |
-| **One-Click Bulk Follow-up** | Update all pending candidates in 10 seconds |
-| **Ghosting Risk Dashboard** | Your team's ghosting rate vs industry benchmark |
-| **Radar Analytics** | Response rate, brand score, transparency metrics |
+📊 Ghosting Prediction Engine
 
----
+BridgeFi uses a smart heuristic model based on:
 
-## 🏗️ Tech Stack
+Days since applying (sigmoid curve)
+Company type (FAANG bias)
+Department trends
+Application timing
 
-| Layer | Technology |
-|-------|-----------|
-| Backend | Python 3 + Flask |
-| Database | SQLite (via SQLAlchemy) |
-| Frontend | HTML5 + CSS3 + Vanilla JS |
-| Charts | Chart.js |
-| AI/LLM | Anthropic Claude API |
-| Icons | Font Awesome 6 |
-| Fonts | Google Inter |
-| Deploy | Render / Railway / Heroku |
+Result: Probability of getting ghosted
 
----
-
-## 📁 Project Structure
-
-```
+📁 Project Structure
 bridgefi/
-├── app.py                  # Main Flask application + all routes + DB models
-├── requirements.txt        # Python dependencies
-├── Procfile               # For Render/Heroku deployment
-├── .env.example           # Environment variables template
-├── README.md
+│
+├── app.py              # Main Flask app
+├── requirements.txt
+├── Procfile
+├── .env.example
+│
 ├── templates/
-│   ├── base.html          # Base layout with navbar
-│   ├── index.html         # Landing page
-│   ├── applicant.html     # Applicant dashboard
-│   ├── recruiter.html     # Recruiter dashboard
-│   └── analyzer.html      # Skill-gap AI analyzer
+│   ├── base.html
+│   ├── index.html
+│   ├── applicant.html
+│   ├── recruiter.html
+│   └── analyzer.html
+│
 └── static/
-    ├── css/style.css      # Full custom CSS (light theme)
-    └── js/main.js         # Shared JS utilities
-```
+    ├── css/style.css
+    └── js/main.js
 
----
 
-## 🧠 AI Features
+✅ Dual-sided platform (rare)
+✅ Solves real pain: ghosting + skill gap
+✅ AI + analytics + automation combined
+✅ Works without API key (demo-ready)
+✅ Clean, deployable full-stack system
 
-The Skill-Gap Analyzer uses **Claude claude-sonnet-4-20250514** to:
-- Extract all required skills from a JD
-- Prioritize them (Critical / High / Medium / Low)
-- Uncover 5+ hidden signals not written in the JD
-- Generate a concrete runnable mini-project to bridge gaps
-- Calculate a match score
+Team
+Rishi Raj (24BCE10149)
+Arnab Kumar (24BCE11017)
+Swastik Sinha (24BEY10075)
+Abhilash Singh (24BCE10706)
 
-**Without an API key:** The app uses intelligent mock analysis that still demonstrates all features.
+🎓 VIT Bhopal — CSE / AI / Automation
 
----
+“BridgeFi doesn’t just match candidates to jobs — it explains why they don’t match and shows them how to fix it.”
 
-## 📊 Ghosting Prediction Algorithm
+📄 License
 
-Factors used:
-- **Department base rate** (Engineering 30%, HR 55%, etc.)
-- **Days since applied** (sigmoid function peaking at ~14 days)
-- **Company type** (FAANG companies respond 25% more)
-- **Best day to apply**: Tuesday = ~2× response rate
-
----
-
-## 👥 Team Details
-
-- **Rishi Raj** (24BCE10149)
-- **Arnab Kumar** (24BCE11017)
-- **Swastik Sinha** (24BEY10075)
-- **Abhilash Singh** (24BCE10706)
-
-**Track**: CSE / AI / Automation · VIT Bhopal
-
----
-
-## 📄 License
-
-MIT License — built for G-Ai Hackathon 2025
+MIT License
