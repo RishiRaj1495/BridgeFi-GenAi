@@ -150,6 +150,10 @@ Factors used:
 
 ---
 
+## Work Flow
+
+<img width="1080" height="602" alt="jd hack3" src="https://github.com/user-attachments/assets/eeff2e9e-4198-456b-9b35-33b0368b35e6" />
+
 ## Team Details
 
 - **Rishi Raj** (24BCE10149)
