@@ -150,7 +150,7 @@ Factors used:
 
 ---
 
-## 👥 Team
+## 👥 Team Details
 
 - **Rishi Raj** (24BCE10149)
 - **Arnab Kumar** (24BCE11017)
