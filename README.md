@@ -78,6 +78,7 @@ railway up
 | **Hidden JD Signals** | Uncovers 10+ unstated job requirements |
 | **Follow-up Generator** | AI drafts professional follow-up emails in 1 click |
 | **Personal Dashboard** | Stats, charts, KPIs — all in one view |
+| **Skill ROI Analyzer** | Identifies which skills will give maximum improvement in job chances |
 
 ### For Recruiters
 | Feature | Description |
@@ -87,7 +88,8 @@ railway up
 | **One-Click Bulk Follow-up** | Update all pending candidates in 10 seconds |
 | **Ghosting Risk Dashboard** | Your team's ghosting rate vs industry benchmark |
 | **Radar Analytics** | Response rate, brand score, transparency metrics |
-
+| **Auto Shortlisting AI ** | Automatically ranks candidates based on skill + potential |
+| **Hiring Fairness Score ** | Detects bias patterns in company hiring behavior |
 ---
 
 ## Tech Stack
