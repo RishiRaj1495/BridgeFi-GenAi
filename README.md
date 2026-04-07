@@ -103,7 +103,7 @@ railway up
 | AI/LLM | Anthropic Claude API |
 | Icons | Font Awesome 6 |
 | Fonts | Google Inter |
-| Deploy | Render / Railway / Heroku |
+| Deploy | Render / Vercel / Netlify |
 
 ---
 
